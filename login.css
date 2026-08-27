@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.login{
+    display: flex;
+    height: 100%;
+}
+
+
+.log1{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10rem;
+    padding-top: 20rem;
+    background-image: url('blue\ background.png');
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.log1 h1{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    padding-right: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 3rem;
+}
+
+.log1 h1 span{
+    color: #ffaa00;
+    font-family: cursive;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.log1 h3{
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+.log1 p{
+    font-size: 1.2rem;
+    padding-right: 5rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+.log1 button{
+    padding: 1rem 2.2rem;
+    border-radius: 1rem;
+    border: transparent;
+    background-color: #ff9700;
+    box-shadow: 0 5px 10px rgba(4,4,4,0.5);
+    cursor: pointer;
+    margin-right: 5rem;
+    
+}
+
+.log1 button a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.log1 button a:hover{
+    color: #0040ff;
+    transition: 0.4s;
+}
+
+.log1 h6{
+    padding-top: 11rem;
+    margin-right: 6rem;
+}
+
+.log1 h6 a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffaa00;
+}
+
+.log1 h6 a:hover{
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.log2{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-left: 18rem;
+    margin-top: 18rem;
+}
+
+.log2 img{
+    margin-bottom: 5px;
+    width: 20rem;
+    height: 4rem;
+}
+
+.log2 h2{
+    font-size: 3rem;
+    color: #0040ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.social-icons{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fa-brands{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #e6e4e0;
+    padding-bottom: 1rem;
+}
+
+a .fa-brands{
+    text-decoration: none;
+    color: #000000;
+}
+
+.log2 a:hover .fa-brands{
+    color: #0040ff;
+    transition: 0.4s;
+}
+
+input{
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 800px;
+    border: none;
+    position: relative;
+    box-shadow: 0 3px 5px rgba(4,4,4,0.5);
+}
+
+.form{
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+label{
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 800;
+
+}
+
+.log2 button{
+    margin-top: 2rem;
+    padding: 0.6rem 0.8rem;
+    background-color: #0040ff;
+    margin-left: 3rem;
+    border: transparent;
+    box-shadow:  0 5px 10px rgba(4,4,4,0.5);
+}
+
+.log2 button a{
+    text-decoration: none;
+    color: #ff9700;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.log2 button a:hover{
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.forgot{
+    margin-top: 9rem;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #0040ff;
+}
+
+.forgot a:hover{
+    color: #ff9700;
+    transition: 0.2s;
+}
+
+
+
+@media (max-width: 853px){
+    .login{
+        display: inline;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .log1{
+        position: relative;
+        background-size: auto;
+        text-align: center;
+        padding-left: 5rem;
+    }
+
+    .log1 p{
+        margin-left: 3rem;
+    }
+
+    .log1 button{
+        margin-left: 3rem;
+    }
+
+    .log1 h6 a{
+        color: #ffffff;
+    }
+
+    .log2{
+        margin-left: 0;
+    }
+
+    .form{
+        margin-bottom: 1rem;
+    }
+
+    .log2 button{
+        margin-top: 1rem;
+    }
+}
